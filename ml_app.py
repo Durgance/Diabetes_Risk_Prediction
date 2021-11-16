@@ -126,7 +126,7 @@ def run_ml_app():
             "Postive DM Risk":pred_prob[0][1]*100}
             st.write(predict_probability_score)
         else:
-            st.success(f"U are Healty 💘")
+            st.success(f"You are Healthy 💘")
             predict_probability_score={"Negative DM Risk":pred_prob[0][0]*100,
             "Postive DM Risk":pred_prob[0][1]*100}
             st.write(predict_probability_score)
